@@ -113,7 +113,7 @@ const PasswordRecovery = () => {
         />
       )}
       <Title headingLevel="h4" size="xl">
-        <b>Recover password</b>
+        <b>Enter New Password</b>
       </Title>
       <br />
       <Form>
@@ -140,7 +140,7 @@ const PasswordRecovery = () => {
       </Form>
     </div>
   );
-  return <AuthLayout toPreview={form} heading="Recover your password" backOpt="true" />;
+  return <AuthLayout toPreview={form} heading="Change Password" backOpt="true" />;
 };
 
 export default connect(mapStateToProps)(PasswordRecovery);

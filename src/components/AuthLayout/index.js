@@ -100,7 +100,7 @@ class AuthLayout extends Component {
         </GridItem>
         <GridItem>
           <Title headingLevel="h6" size="lg">
-            <Button variant="link" onClick={() => this.navigate('password')}>
+            <Button variant="link" onClick={() => this.navigate('recovery_email')}>
               Forgot your password?
             </Button>
           </Title>
@@ -215,7 +215,7 @@ class AuthLayout extends Component {
                   <h4>Help</h4>
                 </FlexItem>
                 <FlexItem>
-                  <h4>Privancy Policy</h4>
+                  <h4>Privacy Policy</h4>
                 </FlexItem>
               </Flex>
             </div>
